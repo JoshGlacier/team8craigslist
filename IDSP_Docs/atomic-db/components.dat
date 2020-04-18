@@ -30,5 +30,165 @@
         "backgroundColor": "",
         "order": 2,
         "has_js": "false"
+    },
+    {
+        "component": "aboutusbox",
+        "category": "modules",
+        "description": "This is the box for the about us page. It contains some text and some images!",
+        "backgroundColor": "",
+        "order": -3,
+        "has_js": "false"
+    },
+    {
+        "component": "addimagebutton",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -4,
+        "has_js": "false"
+    },
+    {
+        "component": "backbutton",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -5,
+        "has_js": "false"
+    },
+    {
+        "component": "calendar",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -6,
+        "has_js": "false"
+    },
+    {
+        "component": "categories",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -7,
+        "has_js": "false"
+    },
+    {
+        "component": "favourite",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -8,
+        "has_js": "false"
+    },
+    {
+        "component": "footer",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -9,
+        "has_js": "false"
+    },
+    {
+        "component": "homepagebutton",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -10,
+        "has_js": "false"
+    },
+    {
+        "component": "input",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -11,
+        "has_js": "false"
+    },
+    {
+        "component": "login",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -12,
+        "has_js": "false"
+    },
+    {
+        "component": "message",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -13,
+        "has_js": "false"
+    },
+    {
+        "component": "myaccount",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -14,
+        "has_js": "false"
+    },
+    {
+        "component": "nextbutton",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -15,
+        "has_js": "false"
+    },
+    {
+        "component": "postad",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -16,
+        "has_js": "false"
+    },
+    {
+        "component": "postsmall",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -17,
+        "has_js": "false"
+    },
+    {
+        "component": "preview",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -18,
+        "has_js": "false"
+    },
+    {
+        "component": "selections",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -19,
+        "has_js": "false"
+    },
+    {
+        "component": "sellerinfo",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -20,
+        "has_js": "false"
+    },
+    {
+        "component": "sidearrow",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -21,
+        "has_js": "false"
+    },
+    {
+        "component": "signup",
+        "category": "modules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -22,
+        "has_js": "false"
     }
 ]

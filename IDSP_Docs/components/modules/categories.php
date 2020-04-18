@@ -1,0 +1,1 @@
+<!-- components/modules/categories.php -->
