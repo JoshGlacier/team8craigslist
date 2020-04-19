@@ -1,0 +1,82 @@
+.bigreg{
+
+width: 1310px;
+height: 1074px;
+left: 50px;
+top: 1251px;
+font-family: 'Poppins', sans-serif;
+background: #F1EBFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.bigreg_upper_title{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+color: #000000;
+padding-bottom: 84px;
+padding-top:54px;
+}
+
+.bigreg_upper_content{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+padding-left:115px;
+padding-right:115px;
+}
+
+.bigreg_lower{
+    display: grid;
+    grid-template-columns: 600px 500px;
+    grid-column-gap: 20px;
+    padding:10px;
+    text-align: center;
+}
+
+.bigreg_lower_contactUS{
+    text-align: center;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+color: #000000;
+padding-bottom: 84px;
+padding-top:54px;
+}
+
+.bigreg_lower_icons{
+    display:flex;
+    flex-direction: row;
+    width:483px;
+    padding-left:120px;
+    padding-top:50px;
+
+    
+}
+
+.bigreg_lower_icons img{
+padding-left:20px;
+padding-right:20px;
+}
+
+.bigreg_lower_career_title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+    padding-bottom: 84px;
+    padding-top:54px;
+}
+
