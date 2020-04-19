@@ -1,0 +1,31 @@
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+a  {
+        color: black
+}
+
+h3 {
+        font-weight: bolder;
+}
+footer{
+    height: 34vh;
+    background-color:#E3DEF0;
+}
+.centered{
+    padding: 10px;
+}
+a{
+        text-decoration: none;
+}
+.myTable{
+        width: 100%;
+}
+.myTable td{
+        text-align: center;
+        vertical-align: top;
+}
