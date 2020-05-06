@@ -1,0 +1,130 @@
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+/* Login in */
+.homepage {
+    border-radius: 6px;
+    background-color: #8860EA;
+    color: #ffffff;
+    padding: 10px;
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-button {
+    border-radius: 6px;
+    background-color: #8860EA;
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-continer {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin: 50px;
+}
+
+.login-form {
+
+    margin-top: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+/* homepage */
+
+#post_ad {
+    background-color:#8860EA;
+    width:110px;
+    height: 39px;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+/* footer part */
+
+a  {
+    color: black
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+footer{
+    height: 34vh;
+    background-color:#E3DEF0;
+}
+
+.centered{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.myTable{
+    width: 100%;
+}
+
+.myTable td{
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+@media screen and (max-width: 414px) {
+
+    .login-form {
+
+        margin-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .logo{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+
+    .homepage-container {
+        background-color: White;
+        padding: 5px;
+    }
+
+    .login-title {
+        margin-bottom: 10px;
+    }
+}
+
+

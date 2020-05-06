@@ -1,0 +1,142 @@
+<nav>
+    <div class="nav">
+        <img src="/img/logo.png" class="logo" alt="logo">
+            <div class="nav-buttons">
+                <button class="account_button"> 
+                    <div class="wrap"> 
+                        <img src="/img/profile.png" class="account"> 
+                        My Account
+                    </div>
+                </button>
+                <button type="button" class="post_ad"> Post an Ad </button>
+            </div>
+    </div>
+</nav>
+
+<main>
+    <form>
+        <div class="post-ad-title">
+            <h4> Details </h4>
+        </div>
+        <div class="post-ad-container">
+            <div class="form-group">
+                <label for="formGroupExampleInput"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
+            </div>
+        <!-- <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="$ Price">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Odometer">
+            </div>
+        </div> -->
+            <div class="form-group">
+                <label for="formGroupExampleInput"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="$ Price">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
+            </div>
+        <!-- <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="custom-select">
+                <option selected>Type</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="custom-select">
+                <option selected>Make & Model</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="custom-select">
+                <option selected>Cylinders</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+    </div> -->
+<!-- 
+<div class="">
+    <div class="post-ad-container2">
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Gas</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">Diesel</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline3">Electronic</label>
+        </div>
+    </div>
+</div> -->
+            <div class="upload-container">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Upload Image</label>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button type="button" class="button-content">Back</button>
+                <button type="button" class="button-content">Preview</button>
+            </div>
+        </div>
+    </form>
+</main>
+
+<footer class="centered">
+    <table class="myTable">
+        <tr>
+            <td>
+                <h5>Craigslist</h5>
+                <br>
+                <a href="">About Us</a><br>
+                <br>
+                <a href="">Careers</a><br>
+                <br>
+                <a href="">Contact Us</a><br>
+                <br>
+                <a href="">Forum</a><br>
+            </td>
+            <td>
+                <h5>Info</h5>
+                <br>
+                <a href="">Terms & Conditions</a><br>
+                <br>
+                <a href="">Privacy Policy</a><br>
+            </td>
+            <td>
+                <h5>Support</h5>
+                <br>
+                <a href="">Frauds</a><br>
+                <br>
+                <a href="">Tips</a><br>
+                <br>
+                <a href="">Q&A</a><br>
+                <br>
+                <a href="">Setting</a><br>
+            </td>
+        </tr>
+    </table>
+  </footer>
+<script>
+    $(".custom-file-input").on("change", function() {
+      var fileName = $(this).val().split("\\").pop();
+      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+</script>

@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    /* position: sticky; */
+    top: 0;
+    background-color: white;
+}
+.form-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.account {
+    width:20px;
+}
+
+.account_button {
+background-color:#EE7074;
+width:120px;
+height: 39px;
+color:white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 100;
+}
+
+.wrap {
+    flex-direction:row;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    padding-left:5px;
+}
+
+.post_ad {
+    background-color:#8860EA;
+    width:110px;
+    height: 39px;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+a  {
+    color: blacks
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+footer{
+    height: 34vh;
+    background-color:#E3DEF0;
+}
+
+.centered{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.myTable{
+    width: 100%;
+}
+
+.myTable td{
+    text-align: center;
+    vertical-align: top;
+}
+.feature-listing {
+    padding: 30px
+}
+
+.feature-container > * {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.for-sale-container {
+    background: #FEFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.class-container {
+    background: #FEFDFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.housing-container {
+    background: #FEFDFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.services-container {
+    background: #FEFDFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+.jobs-container {
+    background: #FEFDFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+@media screen and (max-width: 414px) {
+
+    body {
+        margin: 0;
+    }
+
+    .logo{
+        max-width: 40%;
+        max-height: 40%;
+        display: block;
+    }
+    
+    nav {
+        top: 0;
+        background-color: white;
+    }
+    .form-input {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .nav-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+    
+    .sub-nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+    
+    .account {
+        width:20px;
+    }
+    
+    .account_button {
+        background-color:#EE7074;
+        /* width:120px;
+        height: 39px; */
+        color:white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+    
+    .wrap {
+        /* flex-direction:row;
+        display:flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+    .text {
+        padding-left:5px;
+    }
+    
+    .post_ad {
+        background-color:#8860EA;
+        /* width:110px;
+        height: 39px; */
+        color:white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        /* font-weight: 100; */
+    }
+    
+    
+    a  {
+        color: blacks
+    }
+    
+    h3 {
+        font-weight: bolder;
+    }
+    
+    footer{
+        height: 34vh;
+        background-color:#E3DEF0;
+    }
+    
+    .centered{
+        padding: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .myTable{
+        width: 100%;
+    }
+    
+    .myTable td{
+        text-align: center;
+        vertical-align: top;
+    }
+    .feature-listing {
+        padding: 30px
+    }
+    
+    .feature-container > * {
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .feature-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 2fr;
+        padding: 10px;
+    }
+    
+    .for-sale-container {
+        background: #FEFDFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+    
+    .class-container {
+        background: #FEFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    .housing-container {
+        background: #FEFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    .services-container {
+        background: #FEFDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    .jobs-container {
+        background: #FEFDFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*      about-us        */
+    .about-us-container {
+        background-color: #F1EBFF;
+        padding: 40px;
+        margin: 20px;
+    }
+    .office-img {
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .title-about-us {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-us-title {
+        display: flex;
+        text-align: center;
+    }
+    .about-us-content {
+        display: flex;
+        text-align:  center;
+    }
+    .contact-us-icon {
+        width: 20%;
+        padding: 5px;
+    }
+    .about-us-bottom-container {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .contact-us-icon-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    /*      terms and condition        */
+    .iphone-img {
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /*       events        */
+    .event-img {
+        width: 100%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin-bottom: 30px;
+    }
+    .see-more-text {
+        color: white;
+        background-color: #4275FA;
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        border-radius: 2px;
+        margin: auto auto 30px auto;
+    }
+    /*       post ad        */
+    .post-ad-title {
+        display: flex;
+        padding: 20px;
+    }
+    .post-ad-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post-ad-container > * {
+        width: 70%;
+        padding: 10px;
+    }
+    .continue-button {
+        color: white;
+        background-color: #4275FA;
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        border-radius: 2px;
+        margin: auto 30px 30px auto;
+    }
+
+    /*       Continue Post Ad        */
+    .button-content {
+        color: white;
+        background-color: #4275FA;
+        display: flex;
+        justify-content: center;
+        width: 25%;
+        border-radius: 2px;
+        margin: auto 30px 30px auto;
+    }
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .upload-container {
+        width: 70%;
+    }
+}
