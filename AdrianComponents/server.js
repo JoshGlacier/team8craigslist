@@ -19,7 +19,7 @@ const session = require('express-session');
 const methodOverride = require('method-override');
 
 const PeopleRoutes = require("./routes/people");
-const initializePassport =  require('./passport-config')
+const initializePassport = require('./passport-config')
 initializePassport(
   passport, 
   email => users.find(user => user.email === email),
@@ -186,7 +186,7 @@ function checkNotAuthenticated(req, res, next) {
   }
   next()
 }
-app.listen(port, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Server running at port ${port}`)
 })
 
