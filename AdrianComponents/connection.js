@@ -1,5 +1,8 @@
 const mysql = require('mysql');
 const util = require('util');
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, './.env') })
+
 
 const mysqlConnection = mysql.createConnection({
     host : process.env.MYSQL_HOST,
@@ -15,6 +18,7 @@ const mysqlConnection = mysql.createConnection({
     }
     else {
       console.log("Connection Failed");
+      console.log(err)
     }
   })
 
