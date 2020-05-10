@@ -10,7 +10,7 @@ const cors = require('cors');
 const path = require('path');
 const mysqlConnection = require('./connection');
 const app = express();
-const port = process.env.PORT || 3300;
+const port = process.env.PORT || 3000;
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const passport = require('passport');
@@ -185,7 +185,7 @@ function checkNotAuthenticated(req, res, next) {
 // console.log(process.env['MYSQL_USER']);
 
 
-app.listen(process.env.PORT || 3300, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Server running at port ${port}`)
 })
 
