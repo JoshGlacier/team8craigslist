@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt')
 
 const isAuthenticated = (req,res,next) => {
     if(req.cookies.token){
-        jwt.verify(req.cookies.token , process.env.JWT_SECRET , (err , user) => {
+        jwt.verify(req.cookies.token , 'ThisIsmMyyyyJWTTTTTKEY!1123' , (err , user) => {
             if(err){
                 console.log(err)
                 res.redirect('/login')
@@ -37,9 +37,8 @@ const login = ({email , password}) => {
                     bcrypt.compare(password , user.password , (err , result) => {
                         if(!err){
                             //process.env.JWT_SECRET
-                            // delete user.password
                             const spreadedUser = {...user}
-                            jwt.sign(spreadedUser , process.env.JWT_SECRET, { expiresIn: "1d" } , (err , token) => {
+                            jwt.sign(spreadedUser , 'ThisIsmMyyyyJWTTTTTKEY!1123', { expiresIn: "1d" } , (err , token) => {
                                 if(err){
                                     reject(err)
                                 }else{
@@ -60,6 +59,10 @@ const login = ({email , password}) => {
             }
         })
     })
+}
+
+const signup = ({username, lastname, email, password}) => {
+    
 }
 
 

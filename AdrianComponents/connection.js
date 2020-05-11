@@ -22,24 +22,12 @@ const mysqlConnection = mysql.createConnection({
     }
   })
 
-function getUsers(channel_id , callback) {
-  const whereStatement = channel_id ? 'WHERE channels.id = ? ' : ''
-  const sql = `
-      select users.full_name as name , channels.name as channel_name , channels.id as channel_id , users.email , users.status , users.id as user_id FROM user_channel
-      JOIN
-      users ON users.id = user_channel.user_id
-      JOIN 
-      channels ON channels.id = user_channel.channel_id
-      ${
-          whereStatement
-      }
-  `
-  return channel_id ? mysqlConnection.query(sql , [channel_id] , callback) : mysqlConnection.query(sql, callback)
+function getUsersSignUp(username, lastname, password, email, callback) {
+  const sql = `INSERT into USERS (username, lastname, password, email) VALUES ("${username}", "${lastname}", "${password}", "${email}");`
+  mysqlConnection.query(sql , callback)
 }
 
 function getUserLogin(email , callback) {
-  // const sql = `SELECT * FROM users WHERE email = "?"`
-  // mysqlConnection.query(sql , [email] , callback) 
   const sql = `SELECT * FROM users WHERE email = "${email}"`
   mysqlConnection.query(sql , callback)
 }
@@ -94,7 +82,7 @@ function getUserLogin(email , callback) {
 //   })
 // }
 
-module.exports = { mysqlConnection, getUsers, getUserLogin};
+module.exports = { mysqlConnection, getUsersSignUp, getUserLogin};
 
 
 

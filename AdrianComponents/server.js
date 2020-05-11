@@ -67,7 +67,18 @@ app.post('/login' , (req, res) => {
   .catch(e => console.log(e))
 })
 
-app.get('/', isAuthenticated, function (req, res) {
+app.get('/signup', function(req, res) {
+  res.render('signup', { layout: 'layoutAuth'})
+});
+
+app.post('/signup', (req, res) => {
+  const name = req.body.name
+  const lastname = req.body.lastname
+  const email = req.body.email
+  
+})
+
+app.get('/', function (req, res) {
   res.render('homepage.ejs');
 })
 
