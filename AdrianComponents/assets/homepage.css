@@ -279,18 +279,17 @@ border-radius: 5px;
     }
     .feature-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
         grid-template-rows: 2fr;
         padding: 10px;
     }
-    
     .for-sale-container {
         background: #FEFDFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
     }
     
-    .class-container {
+    .community-container {
         background: #FEFDFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;

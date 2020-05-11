@@ -22,6 +22,7 @@ app.delete('/logout', function(req, res) {
     refreshTokens = refreshTokens.filter(token => token !== req.body.token)
     res.sendStatus(204);
 })
+
 app.post('/login', authenticateToken, function(req, res) {
     //Authenticate user
     const username = req.body.username;
@@ -30,9 +31,12 @@ app.post('/login', authenticateToken, function(req, res) {
     const refreshToken = jwt.sign(user, process.env. ACCESS_TOKEN_SECRET)
     refreshTokens.push(refreshToken)
     res.json({accessToken: accessToken, refreshToken: refreshToken })
-  });
+});
+
+app.post('homepage', authenticateToken, function(req, res) {
+
+});
 
 function generateAccessToken(user) {
     return  jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '1h'}) 
 }
-  
