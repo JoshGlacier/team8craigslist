@@ -1,0 +1,79 @@
+<!-- **********************************Nav**********************************!-->
+<nav>
+    <div class="homepage-container">
+    <button class="homepage" type="button"> Back to homepage </button>
+    </div>
+</nav>
+<!-- **********************************Nav**********************************!-->
+
+
+<!-- **********************************Main**********************************!-->
+<main>
+<div class="main-login">
+    <div class="logo-container">
+        <img src="img/logo.png" class="logo" alt="logo">
+    </div>
+
+    <section class="login-container">
+    <% if (messages.error) { %>
+        <% messages.error %>
+    <% } %>
+    <form class="login-form" action="/login" method="POST">
+        <div class="login-title">
+            <h1> Log In </h1>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" name="password" id="password">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleRadios1">Keep me logged in</label>
+        </div>
+        <button type="submit" class="login-button">Log In</button>
+        <a href="/signup">Not a member?</a>
+    </form>
+    </section>
+</div>
+</main>
+<!-- **********************************Main**********************************!-->
+
+<!-- **********************************Footer**********************************!-->
+    <footer class="centered">
+        <table class="myTable">
+            <tr>
+                <td>
+                    <h3>Craigslist</h3>
+                    <a href="aboutus">About Us</a><br>
+                    <br>
+                    <a href="">Careers</a><br>
+                    <br>
+                    <a href="aboutus">Contact Us</a><br>
+                    <br>
+                    <a href="">Forum</a><br>
+                </td>
+                <td>
+                            <h3>Info</h3>
+                    <a href="termsandcondition">Terms & Conditions</a><br>
+                    <br>
+                    <a href="termsandcondition">Privacy Policy</a><br>
+                    <br>
+                    <a href="events">Events</a><br>
+                </td>
+                <td>
+                            <h3>Support</h3>
+                    <a href="">Frauds</a><br>
+                    <br>
+                    <a href="">Tips</a><br>
+                    <br>
+                    <a href="">Q&A</a><br>
+                    <br>
+                    <a href="">Setting</a><br>
+                </td>
+            </tr>
+        </table>
+    </footer>
